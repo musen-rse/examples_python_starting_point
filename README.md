@@ -5,7 +5,7 @@ This repository contains the starting point of the weatherstation python coding 
 More information: [https://www.tu-braunschweig.de/musen/scientific-software-engineering](https://www.tu-braunschweig.de/musen/scientific-software-engineering)
 
 ## Getting start.
-To run this example python need to be installed on your system. A installation guide can be found [here](https://www.youtube.com/channel/UCnwbvnm966l-49OqD_xUCeg) on youtube.
+To run this example python need to be installed on your system. A installation guide can be found [here](https://www.youtube.com/playlist?list=PLtYSbio-nKFUBC3lBkrIOo5TZqHc9l_6P) on youtube.
 
 Further dependency are not needed. For instance this example can be executed with conda:
 ```bash
