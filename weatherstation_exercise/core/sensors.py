@@ -19,10 +19,3 @@ class TemperatureSensor:
 
         self._chart.draw(self.temperature)
 
-    @property
-    def temperature(self) -> int:
-        return self._temperature
-
-    @temperature.setter
-    def temperature(self, temperature) -> None:
-        self._temperature = temperature
