@@ -1,6 +1,6 @@
 # Python Example - Starting Point
 
-This repository contains the starting point of the weatherstation python coding example of the RSE Musen organisation.
+This repository contains the starting point of the weather station python coding example of the MUSEN center.
 
 More information: [https://www.tu-braunschweig.de/musen/scientific-software-engineering](https://www.tu-braunschweig.de/musen/scientific-software-engineering)
 
