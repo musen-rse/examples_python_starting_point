@@ -1,15 +1,21 @@
 from datetime import datetime
-from enum import Enum, auto
+from enum import Enum
 from typing import List, Tuple
+import random
 
+class ChartColor(str, Enum):
+    RED = "red"
+    BLUE = "blue"
+    CYAN = "cyan"
+    GREEN = "green"
+    YELLOW = "yellow"
+    WHITE = "white"
 
-class ChartColor(Enum):
-    RED = auto()
-    BLUE = auto()
-    CYAN = auto()
-    GREEN = auto()
-    YELLOW = auto()
-    WHITE = auto()
+    @staticmethod
+    def random_color() -> 'ChartColor':
+        list_of_colors = list(ChartColor)
+        random_index_without_white = random.randint(0, len(list_of_colors) - 2)
+        return list_of_colors[random_index_without_white]
 
 
 _DEFAULT_COLOR = '\033[0m'
